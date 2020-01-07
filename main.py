@@ -30,7 +30,7 @@ def myPrint(x):
 def main():
     prob = p.LpProblem('Sudoku')
     x = p.LpVariable.dicts('x', (range(0, 9), range(0, 9),
-                                 range(1, 10)), 0, 1, 'Integer')
+                                 range(1, 10)), cat='Binary')
 
     # 各マスに必ず数字が割り当てられるための制約
     for i in range(0, 9):
