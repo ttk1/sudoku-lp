@@ -20,5 +20,3 @@ python -m pip install pulp
 # venvから出る
 deactivate
 ```
-
-後はVSCodeが良しなにやってくれるハズ...
